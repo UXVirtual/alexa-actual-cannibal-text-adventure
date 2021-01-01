@@ -16,8 +16,14 @@ AMAZON.HelpIntent help
 AMAZON.StopIntent exit skill
 AMAZON.CancelIntent exit skill
 BeginIntent begin
-OpenDoorOneIntent open door one
-OpenDoorTwoIntent open door two
-OpenDoorThreeIntent open door three
-OpenDoorFourIntent open door four
-OpenDoorFiveIntent open door five
+ExamineBushesIntent examine bushes
+GoNorthIntent go north
+GoWestIntent go west
+GoEastIntent go east
+GoSouthIntent go south
+UseKnifeIntent use knife
+EnterTruckIntent enter truck
+OpenGloveBoxIntent open glove box
+TakeKnifeIntent take knife
+RunIntent run
+StandGroundIntent stand ground

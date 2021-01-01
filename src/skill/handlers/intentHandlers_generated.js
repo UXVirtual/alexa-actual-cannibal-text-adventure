@@ -28,19 +28,37 @@ module.exports = {
 	"BeginIntent": function ( intent, session, request, response ) {
 		processUtterance( intent, session, request, response, "begin" )
 	},
-	"OpenDoorOneIntent": function ( intent, session, request, response ) {
-		processUtterance( intent, session, request, response, "open door 1" )
+	"ExamineBushesIntent": function ( intent, session, request, response ) {
+		processUtterance( intent, session, request, response, "examine bushes" )
 	},
-	"OpenDoorTwoIntent": function ( intent, session, request, response ) {
-		processUtterance( intent, session, request, response, "open door 2" )
+	"GoNorthIntent": function ( intent, session, request, response ) {
+		processUtterance( intent, session, request, response, "go north" )
 	},
-	"OpenDoorThreeIntent": function ( intent, session, request, response ) {
-		processUtterance( intent, session, request, response, "open door 3" )
+	"GoWestIntent": function ( intent, session, request, response ) {
+		processUtterance( intent, session, request, response, "go west" )
 	},
-	"OpenDoorFourIntent": function ( intent, session, request, response ) {
-		processUtterance( intent, session, request, response, "open door 4" )
+	"GoEastIntent": function ( intent, session, request, response ) {
+		processUtterance( intent, session, request, response, "go east" )
 	},
-	"OpenDoorFiveIntent": function ( intent, session, request, response ) {
-		processUtterance( intent, session, request, response, "open door 5" )
+	"GoSouthIntent": function ( intent, session, request, response ) {
+		processUtterance( intent, session, request, response, "go south" )
+	},
+	"UseKnifeIntent": function ( intent, session, request, response ) {
+		processUtterance( intent, session, request, response, "use knife" )
+	},
+	"EnterTruckIntent": function ( intent, session, request, response ) {
+		processUtterance( intent, session, request, response, "enter truck" )
+	},
+	"OpenGloveBoxIntent": function ( intent, session, request, response ) {
+		processUtterance( intent, session, request, response, "open glove box" )
+	},
+	"TakeKnifeIntent": function ( intent, session, request, response ) {
+		processUtterance( intent, session, request, response, "take knife" )
+	},
+	"RunIntent": function ( intent, session, request, response ) {
+		processUtterance( intent, session, request, response, "run" )
+	},
+	"StandGroundIntent": function ( intent, session, request, response ) {
+		processUtterance( intent, session, request, response, "stand ground" )
 	},
 }

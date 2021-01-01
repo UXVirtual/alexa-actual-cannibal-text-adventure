@@ -1,6 +1,6 @@
 {
   "applicationId": null,
-  "awsProfileName": "",
+  "awsProfileName": "adventure-game",
   "skillName": "My Alexa Skill",
   "lambdaName": "MyAlexaSkillLambdaFunction",
   "dynamoTableName": "MyAlexaSkillTable",
@@ -100,7 +100,7 @@
       "readPreviousOptions": false,
       "card": {
         "title": "Good bye",
-        "text": "Thank you for using My Alexa Skill.",
+        "text": "Thank you for playing Actual Cannibal.",
         "prompt": "",
         "image": {
           "largeImageUrl": null,
@@ -108,8 +108,38 @@
         }
       },
       "voice": {
-        "intro": "Thank you for using My Alexa Skill.",
+        "intro": "Thank you for playing Actual Cannibal.",
         "prompt": "Goodbye."
+      },
+      "setSessionFlagsOnEnter": "",
+      "setSessionFlagsOnExit": "",
+      "entryConditions": "",
+      "alternateConditions": "",
+      "rejectVoice": {
+        "intro": "",
+        "prompt": ""
+      },
+      "alternateVoice": {
+        "intro": "",
+        "prompt": ""
+      },
+      "rejectCard": {
+        "title": "",
+        "text": "",
+        "prompt": "",
+        "image": {
+          "largeImageUrl": null,
+          "smallImageUrl": null
+        }
+      },
+      "alternateCard": {
+        "title": "",
+        "text": "",
+        "prompt": "",
+        "image": {
+          "largeImageUrl": null,
+          "smallImageUrl": null
+        }
       }
     }
   },
